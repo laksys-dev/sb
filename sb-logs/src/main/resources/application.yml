@@ -1,0 +1,12 @@
+server:
+  port: 9191
+spring:
+  main:
+    banner-mode: off
+  application:
+    name: logging ex
+
+logging:
+  file:
+    name:logs/app.log
+    path:logs
